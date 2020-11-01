@@ -1,0 +1,66 @@
+ul {
+    padding: 0 20px 0 20px;
+}
+
+li {
+    user-select: none;
+    cursor: pointer;
+}
+
+li p:first-letter {
+    text-transform: capitalize;
+}
+
+li p:focus {
+    color: #0000ff;
+    outline: none;
+}
+
+.data-container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.data-container .albums-container {
+    width: 20%;
+    border: 1px solid #000000;
+    margin: 10px;
+    display: inline-block;
+    overflow-y: auto;
+    height: 500px;
+}
+
+.data-container .photos-container {
+    width: 35%;
+    border: 1px solid #000000;
+    margin: 10px;
+    display: inline-block;
+    overflow-y: auto;
+    height: 500px;
+}
+
+.data-container .photo-container {
+    width: 35%;
+    border: 1px solid #000000;
+    margin: 10px;
+    display: inline-block;
+    overflow-y: auto;
+    height: 500px;
+}
+
+.data-container .photos-container .thumbnail, .data-container .photo-container .thumbnail {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 5px;
+    overflow: hidden;
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.data-container .photos-container .thumbnail:first-letter, .data-container .photo-container .thumbnail:first-letter {
+    text-transform: capitalize;
+
+}
